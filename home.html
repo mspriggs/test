@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Products & Services</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to the Tennis Shack</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+          voluptatibus soluta, consequuntur, reiciendis debitis omnis fugiat
+          libero pariatur amet laudantium minima consectetur tenetur.
+          Repudiandae, autem, voluptate modi deleniti sequi voluptatum!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi earum
+          fugit veniam amet quae sint vitae numquam dolore sunt quod a odio
+          officia voluptate doloribus, at. Cum quasi mollitia eaque.
+          Voluptatibus soluta, consequuntur, reiciendis debitis omnis fugiat
+          libero pariatur amet laudantium.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+          voluptatibus soluta, consequuntur, reiciendis debitis omnis fugiat
+          libero pariatur amet laudantium minima consectetur tenetur.
+          Repudiandae, autem, voluptate modi deleniti sequi voluptatum!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi earum
+          fugit veniam amet quae sint vitae numquam dolore sunt quod a odio
+          officia voluptate doloribus, at. Cum quasi mollitia eaque.
+        </p>
+      </div>
+
+      <div class="sidebar-two">
+        <img
+          id="logo"
+          src="https://mspriggs.github.io/tennisshack/tennishack.png"
+        />
+        <div>
+          <ul>
+            <li>Tennis Apparel</li>
+            <li>Tennis Gear</li>
+            <li>Lessons</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Special Offer 1</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
+          obcaecati vel, placeat numquam omnis sit consectetur nobis molestias!
+          Explicabo deserunt. Consectetur adipisicing elit. Quibusdam obcaecati
+          vel, placeat numquam placeat numquam omnis sit consectetur.
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Special Offer 2</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
+          obcaecati vel, placeat numquam omnis sit consectetur nobis molestias!
+          Explicabo deserunt placeat numquam omnis.
+        </p>
+        <button>Learn More</button>
+      </div>
+    </div>
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
